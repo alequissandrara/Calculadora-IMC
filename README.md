@@ -1,6 +1,6 @@
  # Calculadora-IMC com índice de resultado de emojis 	:pushpin:
 * Esse projeto tem como intuito calcular o Índice de massa corporal humano (IMC), retonando um resultado de se a pessoa 
-está abaixo do peso, com seu peso correto ou acima do peso. Tudo isso feito em HTML%, CSS3, Bootstrap e JavaScript para a
+está abaixo do peso, com seu peso correto ou acima do peso. Tudo isso feito em HTML5, CSS3, Bootstrap e JavaScript para a
 efetuação dos cálculos.
 * Projeto responsivo.
 
