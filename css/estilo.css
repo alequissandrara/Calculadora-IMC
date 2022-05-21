@@ -1,0 +1,106 @@
+/***
+Edição da imagem de fundo
+***/
+#grad1{
+    background-image: url(../img/fita.jpg);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: 100%;
+    margin-top: -38px; 
+}
+/***
+Edição do título CALCULADORA-IMC
+***/
+.titulo{
+    text-align: center;
+    border-bottom: 3px solid black;
+    padding-top: 10px;  
+}
+/***
+Edição do container
+***/
+.container1{
+    position: relative;
+    background-color: rgba(94, 245, 152, 0.753);
+    border-radius: 20px;
+    margin-top: 2%;  
+    margin-left: 35%;
+    width: 35%;
+    padding: 10px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);  
+}
+/***
+Edição da caixa de respostas
+***/
+.result{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+/***
+Edição da Primeira imagem emoções
+***/
+.imgFixa{
+    position:relative;
+    margin-top:0%;
+    margin-left:-5%;
+    width: 270px;
+}
+/***
+Edição da imagem de respostas
+***/
+.imgResp{
+    position: absolute;
+    margin-top:-15%;
+    margin-left: 30% ;
+}
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    img{
+        width: 150px;
+        margin-left: -40px;
+        margin-top: -15px;
+
+    }
+
+    .result{
+        font-size: 0.85em;
+    }
+
+    #grad1{
+       
+        width: 140%;
+        margin-top: 0px; 
+    }
+
+ }
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px)  { 
+    .imgResp{
+        position: absolute;
+        margin-top:-20%;
+        margin-left: 14% ;
+    } 
+    .imgFixa{
+        position:relative;
+        width: 270px;
+    }
+
+    #grad1{
+        height: 120%;
+        width: 100%;
+        margin-top: -35px;
+         
+    }
+   
+ }
+
+

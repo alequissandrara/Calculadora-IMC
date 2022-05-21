@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <!--Links obrigatórios-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/0c9129bdfc.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="css/estilo.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+  
+  <div id="grad1"></div> <!--Configurar Background -->
+  
+    <div class="container1" > <!-- início do container -->
+        <form >
+           <div class="titulo"><!-- início do título -->
+             <h5> CALCULADORA - IMC</h5>
+           </div><!-- fim do título -->
+           <div class="form-group" style="position: relative;"><!-- Início do recebimento de dados  -->
+              <label for="formGroupExampleInput"> <b>Nome</b> </label>  <i class = "fa-solid fa-circle-user" style = 'font-size:23px; padding-top:15px; '></i>
+              <input type="text" id="nome" class="form-control"  placeholder="Digite seu Nome ">
+           </div>
+           <div class="form-group">
+              <label for="formGroupExampleInput1"> <b>Altura</b> </label>  <i class = "fa-solid fa-ruler-vertical"style = 'font-size:23px'></i>
+              <input type="number" id="altura"  class="form-control" placeholder="Digite sua Altura (m)">
+           </div>
+           <div class="form-group">
+              <label for="formGroupExampleInput2"> <b>Peso</b> </label>  <i class = 'fas fa-dumbbell' style = 'font-size:20px'></i> 
+              <input type="number" id="peso"  class="form-control" placeholder="Digite seu Peso (kg)">
+           </div><!-- Fim do recebimento de dados  -->
+          <button id="calcular" class="btn btn-primary ">Calcular</button>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"> <p></p> <b>Resultado aqui:</b> </label>
+                    
+                    <div  id="resultado"  class="result"> 
+                    </div>  
+
+                    <div id="imagem1" class="imgResp"><!-- Configuração de imagem de emoções -->
+                      <img src="img/satisfacao.png" class="imgFixa">
+                    </div> 
+               
+            </div>
+          </form>
+        </div><!--fim do container -->
+        
+        <script src="../JavaScript/index.js" > </script>
+        
+
+
+    
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
