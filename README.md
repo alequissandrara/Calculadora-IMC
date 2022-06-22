@@ -3,6 +3,7 @@
 está abaixo do peso, com seu peso correto ou acima do peso. Tudo isso feito em HTML5, CSS3, Bootstrap e JavaScript para a
 efetuação dos cálculos.
 * Projeto responsivo.
+* Link:https://alequissandrara.github.io/Calculadora-IMC/
 
 ## Inspiração: 	:mag:
 * Com base em um mini projeto do youtube (https://youtu.be/RacwEvoTz_Y) resolvi recriar o projeto Utilizando  a 
